@@ -9,8 +9,6 @@ import ListAlbum from './Pages/ListAlbum';
 import { AuthProvider } from './Context/AuthContext';
 import './app.css';
 import ProtectedRoute from './Componenets/ProtectedRoute';
-export const API_BASE_URL="http://localhost:8080";
-
 const App = () => {
   return (
     <AuthProvider>
