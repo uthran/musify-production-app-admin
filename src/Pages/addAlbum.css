@@ -1,0 +1,59 @@
+
+.add-album-image-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.add-album-image-div label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 2px dashed grey;
+    border-radius: 7px;
+}
+.add-song-song-image-div{
+    display: flex;
+    gap: 40px;
+
+}
+.add-album-image-div img{
+    border-radius: 7px;
+}
+.add-album-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.add-album-name-div input{
+    margin-top: 10px;
+    border:2px solid grey;
+    padding: 5px;
+}
+.add-album-submit{
+    background-color: rgb(57, 255, 57);
+    padding: 5px 50px;
+    color: white;
+    border-radius: 3px;
+}
+.add-album-form input{
+    outline: none;
+}
+.add-album-form input:focus{
+   border: 2px solid rgb(0, 255, 0);
+}
+.select-album{
+border-radius: 5px;
+background-color: rgb(192, 192, 192);
+padding: 5px 10px;
+outline: none;
+}
+.select-album option{
+    border-radius: 5px;
+    background-color: white;
+}
+.add-song-mood-album{
+    display: flex;
+    gap: 30px;
+}

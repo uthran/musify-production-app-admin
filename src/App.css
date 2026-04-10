@@ -1,0 +1,17 @@
+.loader {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  border-top: 5px solid #4caf50; /* main color */
+  animation: spin 1s linear infinite; /* center horizontally */
+}
+.loading-div{
+    display: flex;
+    gap: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(1deg); }
+  100% { transform: rotate(360deg); }
+}
