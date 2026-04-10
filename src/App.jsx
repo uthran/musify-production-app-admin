@@ -7,8 +7,9 @@ import ListSong from './Pages/ListSong';
 import AddAlbum from './Pages/AddAlbum';
 import ListAlbum from './Pages/ListAlbum';
 import { AuthProvider } from './Context/AuthContext';
-import './app.css';
+import './App.css';
 import ProtectedRoute from './Componenets/ProtectedRoute';
+
 const App = () => {
   return (
     <AuthProvider>
